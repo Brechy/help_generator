@@ -50,3 +50,13 @@ const chores = [{
     day: "Saturday",
     chore: "set timer for 20 minutes and clean what you can see"
 }]
+
+//get current day of the week
+const date = new Date();
+const day = date.getDay();
+
+//map day numbers to day names
+const getDayName = () => {
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    return days[day];
+}
