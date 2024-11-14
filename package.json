@@ -1,0 +1,19 @@
+{
+  "name": "help_generator",
+  "version": "1.0.0",
+  "description": "Randomly generate suggestions for chores depending on the day of the week.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brechy/help_generator.git"
+  },
+  "author": "Brechin Andariese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brechy/help_generator/issues"
+  },
+  "homepage": "https://github.com/Brechy/help_generator#readme"
+}
