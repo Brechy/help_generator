@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Brechy/help_generator/issues"
   },
-  "homepage": "https://github.com/Brechy/help_generator#readme"
+  "homepage": "https://github.com/Brechy/help_generator#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0"
+  }
 }

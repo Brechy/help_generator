@@ -63,11 +63,11 @@ const getDayName = () => {
 //get a random chore for any day of the week
 const getRandomChoreForDay = (day) => {
     const dayName = getDayName(day);
-//filter chores to only include those for the current day
+    //filter chores to only include those for the current day
     const choresForToday = chores.filter(chore => chore.day === dayName);
 
-//randomly select chore from the filtered list
-    if(choresForToday.length > 0) {
+    //randomly select chore from the filtered list
+    if (choresForToday.length > 0) {
         const randomIndex = Math.floor(Math.random() * choresForToday.length);
         return choresForToday[randomIndex].chore;
     } else {
